@@ -1,6 +1,6 @@
 # How to use git and github
 
-## Follow the verry first tutorial on codeacadamy to understand git
+## 1. Follow the verry first tutorial on codeacadamy to understand git
 
 <https://www.codecademy.com/learn/learn-git/modules/learn-git-git-workflow-u>
 
@@ -83,7 +83,7 @@ We will use ```git log``` for this.
 
 </details>
 
-## Linking your Git with GitHub
+## 2. Linking your Git with GitHub
 <details>
 
 ### The first job is to authenticate your machine in github
@@ -191,7 +191,7 @@ Then you name your key eg. "pc becode" and paste your key in the second window
 Finaly click Add key
 </details>
 
-### Now your machine is known in GitHub
+###  Now your machine is known in GitHub
 <details>
 <summary>Testing time!</summary>
 Ofcourse we want to know how to ```git push``` something to Github.
@@ -211,8 +211,10 @@ Finaly we copy and paste all the commands as shown below in the image.
 #### If you entered all the commands correctly (and you will have entered the last command push) you will not be asked to log in with your credentials.
 </details>
 
-## Import from github
+## 3. Import from github
 
+<details>
+<summary>How to clone a repository</summary>
 1. Create a directory on the local file system.
 2. Create a repo on Github.
 3. Select Clone "Clone or download" on Github, copy the link
@@ -228,4 +230,34 @@ git config --global user.name <github userID>
 
 git clone <URL from github link copied earlier>
 ```
-[cheatsheet](http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
+</details>
+
+## 4. Problems
+
+"I still need to log in???!!? SSH NOT WORKING"
+
+First
+
+```git remote -v```
+
+If any of your remotes are starting with https you are NOT using your SSH-key
+
+To fix this:
+
+```git remote rm origin```
+
+Re-add the remote location you have added before from github.
+
+<details>
+<summary>when cloning</summary>
+
+![](https://i.imgur.com/McE8bet.png)
+
+</details>
+
+<details>
+<summary>when creating a new repository</summary>
+
+![](https://i.imgur.com/aedRrmu.png)
+
+</details>
