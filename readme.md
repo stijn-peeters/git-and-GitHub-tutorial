@@ -87,7 +87,7 @@ We will use ```git log``` for this.
 <details>
 
 ### The first job is to authenticate your machine in github
-<summary> Not linked yet show how</summary>
+<summary>Show me how to link</summary>
 You can do this by storing your credentials or creating an SSH key.
 
 #### We will create an SSH key as it is far more secure.
