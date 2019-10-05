@@ -72,11 +72,11 @@ We will use ```git log``` for this.
 >In the output, notice:
 >
 >    * A 40-character code, called a SHA, that uniquely identifies the commit. This appears in orange text.
-
+>
 >    * The commit author (you!)
-
+>
 >    * The date and time of the commit
-
+>
 >    * The commit message
 
 ### with all these commands you should understand the basics of how git works
