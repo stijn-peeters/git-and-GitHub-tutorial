@@ -211,7 +211,7 @@ Finaly we copy and paste all the commands as shown below in the image.
 #### If you entered all the commands correctly (and you will have entered the last command push) you will not be asked to log in with your credentials.
 </details>
 
-## 3. Import from github
+## 3. Import from github to Visual Studio Code
 
 <details>
 <summary>How to clone a repository</summary>
