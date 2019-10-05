@@ -84,8 +84,10 @@ We will use ```git log``` for this.
 </details>
 
 ## Linking your Git with GitHub
+<details>
 
 ### The first job is to authenticate your machine in github
+<summary> Not linked yet show how</summary>
 You can do this by storing your credentials or creating an SSH key.
 
 #### We will create an SSH key as it is far more secure.
@@ -187,9 +189,11 @@ Then you name your key eg. "pc becode" and paste your key in the second window
 ![](https://i.imgur.com/oXBHyp0.png)
 
 Finaly click Add key
+</details>
 
 ### Now your machine is known in GitHub
-
+<details>
+<summary>Testing time!</summary>
 Ofcourse we want to know how to ```git push``` something to Github.
 
 First of all we create a folder ```mkdir newfolder``` and we go to it in the terminal ```cd newfolder```
@@ -205,6 +209,7 @@ Finaly we copy and paste all the commands as shown below in the image.
 ![](https://i.imgur.com/aedRrmu.png)
 
 #### If you entered all the commands correctly (and you will have entered the last command push) you will not be asked to log in with your credentials.
+</details>
 
 ## Import from github
 
