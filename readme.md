@@ -95,6 +95,7 @@ Creating an SSH key depends on the machine (OS) you use.
 <details>
 <summary>LINUX</summary>
 Generate SSH-key (Linux)
+
 1. Open your terminal
 2. Copy the following command into your terminal 
     Change "your_email@example.com" to the email address linked to your Github account and press `Enter`.
