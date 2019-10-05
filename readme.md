@@ -87,7 +87,7 @@ We will use ```git log``` for this.
 <details>
 
 ### The first job is to authenticate your machine in github
-<summary> Not linked yet show how</summary>
+<summary>Show me how to link</summary>
 You can do this by storing your credentials or creating an SSH key.
 
 #### We will create an SSH key as it is far more secure.
@@ -247,6 +247,8 @@ To fix this:
 ```git remote rm origin```
 
 Re-add the remote location you have added before from github.
+
+```git remote add origin new_link_see_below```
 
 <details>
 <summary>when cloning</summary>
