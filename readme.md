@@ -248,6 +248,8 @@ To fix this:
 
 Re-add the remote location you have added before from github.
 
+```git remote add origin new_link_see_below```
+
 <details>
 <summary>when cloning</summary>
 
