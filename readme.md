@@ -88,7 +88,7 @@ We will use ```git log``` for this.
 ### The first job is to authenticate your machine in github
 You can do this by storing your credentials or creating an SSH key.
 
-We will create an SSH key as it is far more secure.
+#### We will create an SSH key as it is far more secure.
 
 Creating an SSH key depends on the machine (OS) you use.
 
@@ -112,7 +112,6 @@ Generate SSH-key (Linux)
 4. Enter a file in which to save the key (/home/*user_name*/.ssh/id_rsa): [Leave blank and press `Enter`]
 5. Enter passphrase (empty for no passphrase): [Leave blank and press `Enter`]
 6. Enter same passphrase again: [Leave blank and press `Enter`]
-7. Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux
 
 </details>
 
@@ -138,7 +137,6 @@ Generate a SSH-key (for Mac)
 4. Enter a file in which to save the key (/Users/*user_name*/.ssh/id_rsa): [Leave blank and press `Enter`]
 5. Enter passphrase (empty for no passphrase): [Leave blank and press `Enter`]
 6. Enter same passphrase again: [Leave blank and press `Enter`]
-7. Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac
 
 </details>
 
@@ -164,34 +162,58 @@ Generate a SSH-key (for Windows)
 4. Enter a file in which to save the key (/c/Users/*user_name*/.ssh/id_rsa): [Leave blank and press `Enter`]
 5. Enter passphrase (empty for no passphrase): [Leave blank and press `Enter`]
 6. Enter same passphrase again: [Leave blank and press `Enter`]
-7. Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows
 
 </details>
 
+#### Now that we created our SSH-key we can put it in GitHub
 
+First we will copy our SSH-key
 
+- Linux
+```xclip -sel clip < ~/.ssh/id_rsa.pub```
 
+- Mac
+```pbcopy < ~/.ssh/id_rsa.pub```
 
+- Windows
+```clip < ~/.ssh/id_rsa.pub```
 
+Now that our SSH-key is copied we will paste it in GitHub.
+![](https://i.imgur.com/A5JTP6P.png)
 
+After you followed the above steps in the image you click "New SSH key".
 
+Then you name your key eg. "pc becode" and paste your key in the second window
+![](https://i.imgur.com/oXBHyp0.png)
 
+Finaly click Add key
 
+### Now your machine is known in GitHub
 
+Ofcourse we want to know how to ```git push``` something to Github.
 
+First of all we create a folder ```mkdir newfolder``` and we go to it in the terminal ```cd newfolder```
 
+Then we go to the github website.
 
+And we add a new repository to our profile.
 
+![](https://i.imgur.com/aV8gsvS.png)
+![](https://i.imgur.com/uGzzeVA.png)
 
+Finaly we copy and paste all the commands as shown below in the image.
+![](https://i.imgur.com/aedRrmu.png)
 
-
-
+#### If you entered all the commands correctly (and you will have entered the last command push) you will not be asked to log in with your credentials.
 
 ## Import from github
 
 1. Create a directory on the local file system.
 2. Create a repo on Github.
 3. Select Clone "Clone or download" on Github, copy the link
+
+![](https://i.imgur.com/McE8bet.png)
+
 4. In Visual Studio Code, sect File -> Add Folder to Workspace ->Select the newly created directory
 5. Select Terminal Window
 In the window, type:
@@ -201,4 +223,4 @@ git config --global user.name <github userID>
 
 git clone <URL from github link copied earlier>
 ```
-<http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code>
+[cheatsheet](http://www.notyourdadsit.com/blog/2018/4/3/cheatsheet-setup-github-on-visual-studio-code)
