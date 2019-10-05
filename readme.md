@@ -14,7 +14,7 @@ Cd into that folder you just made with terminal and follow the next step.
 ![](https://i.imgur.com/Jr1cdlz.png)
 
 ### step 2
-
+test
 
 ![new account readme](https://i.imgur.com/ijwAd89.png)
 
