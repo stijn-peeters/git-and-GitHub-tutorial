@@ -95,24 +95,24 @@ Creating an SSH key depends on the machine (OS) you use.
 <details>
 <summary>LINUX</summary>
 Generate SSH-key (Linux)
+1. Open your terminal
+2. Copy the following command into your terminal 
+    Change "your_email@example.com" to the email address linked to your Github account and press `Enter`.
 
-    Open your terminal
-
-    Copy the following command into your terminal Change "your_email@example.com" to the email address linked to your Github account and press Enter.
-
+    ```shell
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
 
     This will create an SSH key that is linked to your email
 
-    Generate a private/public RSA key pair When you are asked to "Enter a file in which to save the key", press Enter. This will accept the standard location.
+3. Generate a private/public RSA key pair
+    When you are asked to "Enter a file in which to save the key", press `Enter`. This will accept the standard location.
 
-    Enter a file in which to save the key (/home/user_name/.ssh/id_rsa): [Leave blank and press Enter]
+4. Enter a file in which to save the key (/home/*user_name*/.ssh/id_rsa): [Leave blank and press `Enter`]
+5. Enter passphrase (empty for no passphrase): [Leave blank and press `Enter`]
+6. Enter same passphrase again: [Leave blank and press `Enter`]
+7. Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux
 
-    Enter passphrase (empty for no passphrase): [Leave blank and press Enter]
-
-    Enter same passphrase again: [Leave blank and press Enter]
-
-    Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux
 </details>
 
 <details>
@@ -122,23 +122,23 @@ Use Github on the terminal (for Mac)
 To login into github you need a SSH-key. In the next steps we will see how to generate one and link it to your github account.
 Generate a SSH-key (for Mac)
 
-    Open your terminal
+1. Open your terminal
+2. Copy the following command into your terminal 
+    Change "your_email@example.com" to the email address linked to your Github account and press `Enter`.
 
-    Copy the following command into your terminal Change "your_email@example.com" to the email address linked to your Github account and press Enter.
-
+    ```shell
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
 
     This will create an SSH key that is linked to your email
+3. Generate a private/public RSA key pair
+    When you are asked to "Enter a file in which to save the key", press `Enter`. This will accept the standard location.
 
-    Generate a private/public RSA key pair When you are asked to "Enter a file in which to save the key", press Enter. This will accept the standard location.
+4. Enter a file in which to save the key (/Users/*user_name*/.ssh/id_rsa): [Leave blank and press `Enter`]
+5. Enter passphrase (empty for no passphrase): [Leave blank and press `Enter`]
+6. Enter same passphrase again: [Leave blank and press `Enter`]
+7. Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac
 
-    Enter a file in which to save the key (/Users/user_name/.ssh/id_rsa): [Leave blank and press Enter]
-
-    Enter passphrase (empty for no passphrase): [Leave blank and press Enter]
-
-    Enter same passphrase again: [Leave blank and press Enter]
-
-    Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac
 </details>
 
 <details>
@@ -148,23 +148,23 @@ Use GitHub on the terminal (for Windows)
 To login into github you need a SSH-key. In the next steps we will see how to generate one and link it to your github account.
 Generate a SSH-key (for Windows)
 
-    Open you Terminal/cmd.
+1. Open you Terminal/cmd.
+2. Copy the following command into your terminal 
+    Change "your_email@example.com" to the email address linked to your Github account and press `Enter`.
 
-    Copy the following command into your terminal Change "your_email@example.com" to the email address linked to your Github account and press Enter.
-
+    ```shell
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
 
     This will create an SSH key that is linked to your email
+3. Generate a private/public RSA key pair
+    When you are asked to "Enter a file in which to save the key", press `Enter`. This will accept the standard location.
 
-    Generate a private/public RSA key pair When you are asked to "Enter a file in which to save the key", press Enter. This will accept the standard location.
+4. Enter a file in which to save the key (/c/Users/*user_name*/.ssh/id_rsa): [Leave blank and press `Enter`]
+5. Enter passphrase (empty for no passphrase): [Leave blank and press `Enter`]
+6. Enter same passphrase again: [Leave blank and press `Enter`]
+7. Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows
 
-    Enter a file in which to save the key (/c/Users/user_name/.ssh/id_rsa): [Leave blank and press Enter]
-
-    Enter passphrase (empty for no passphrase): [Leave blank and press Enter]
-
-    Enter same passphrase again: [Leave blank and press Enter]
-
-    Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows
 </details>
 
 
