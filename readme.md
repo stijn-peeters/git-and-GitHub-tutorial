@@ -83,27 +83,106 @@ We will use ```git log``` for this.
 
 </details>
 
-Follow the first tutorial that explains the basic workflow of git.
+## Linking your Git with GitHub
 
-![new account readme](https://i.imgur.com/ijwAd89.png)
+### The first job is to authenticate your machine in github
+You can do this by storing your credentials or creating an SSH key.
 
-## Create a new repository on the command line
+We will create an SSH key as it is far more secure.
 
-```
-echo "# new-account" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/stijn-peeters/new-account.git
-git push -u origin master
-```
+Creating an SSH key depends on the machine (OS) you use.
 
-## Push an existing repository from the command line
+<details>
+<summary>LINUX</summary>
+Generate SSH-key (Linux)
 
-```
-git remote add origin https://github.com/stijn-peeters/new-account.git
-git push -u origin master
-```
+    Open your terminal
+
+    Copy the following command into your terminal Change "your_email@example.com" to the email address linked to your Github account and press Enter.
+
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    This will create an SSH key that is linked to your email
+
+    Generate a private/public RSA key pair When you are asked to "Enter a file in which to save the key", press Enter. This will accept the standard location.
+
+    Enter a file in which to save the key (/home/user_name/.ssh/id_rsa): [Leave blank and press Enter]
+
+    Enter passphrase (empty for no passphrase): [Leave blank and press Enter]
+
+    Enter same passphrase again: [Leave blank and press Enter]
+
+    Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux
+</details>
+
+<details>
+<summary>MAC</summary>
+Use Github on the terminal (for Mac)
+
+To login into github you need a SSH-key. In the next steps we will see how to generate one and link it to your github account.
+Generate a SSH-key (for Mac)
+
+    Open your terminal
+
+    Copy the following command into your terminal Change "your_email@example.com" to the email address linked to your Github account and press Enter.
+
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    This will create an SSH key that is linked to your email
+
+    Generate a private/public RSA key pair When you are asked to "Enter a file in which to save the key", press Enter. This will accept the standard location.
+
+    Enter a file in which to save the key (/Users/user_name/.ssh/id_rsa): [Leave blank and press Enter]
+
+    Enter passphrase (empty for no passphrase): [Leave blank and press Enter]
+
+    Enter same passphrase again: [Leave blank and press Enter]
+
+    Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac
+</details>
+
+<details>
+<summary>WINDOWS</summary>
+Use GitHub on the terminal (for Windows)
+
+To login into github you need a SSH-key. In the next steps we will see how to generate one and link it to your github account.
+Generate a SSH-key (for Windows)
+
+    Open you Terminal/cmd.
+
+    Copy the following command into your terminal Change "your_email@example.com" to the email address linked to your Github account and press Enter.
+
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    This will create an SSH key that is linked to your email
+
+    Generate a private/public RSA key pair When you are asked to "Enter a file in which to save the key", press Enter. This will accept the standard location.
+
+    Enter a file in which to save the key (/c/Users/user_name/.ssh/id_rsa): [Leave blank and press Enter]
+
+    Enter passphrase (empty for no passphrase): [Leave blank and press Enter]
+
+    Enter same passphrase again: [Leave blank and press Enter]
+
+    Follow this tutorial to add the SSH key to your github account: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
