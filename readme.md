@@ -335,7 +335,7 @@ _"I got an error and github isnt linked"_
 
 *"I got no errors what so ever and github isnt *updated*"*
 
-### Step 1: READ THE ERROR
+#### Step 1: READ THE ERROR
 
 Most of the time the errors can be solved by logical thinking without having previous knowledge.
 
@@ -372,10 +372,10 @@ Re-add the remote location you have added before from github.
 
 </details>
 
-### Step 2: Google
+#### Step 2: Google
 
 While some other people know the solution, you will learn what your mistake was by googling and finding a solution.
 
-### Step 3: In case of no Google results
+#### Step 3: In case of no Google results
 
 Ask someone who knows the solution (eg the coaches)
