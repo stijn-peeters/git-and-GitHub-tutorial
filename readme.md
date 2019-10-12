@@ -61,7 +61,7 @@ Do the exercise that the coaches gave and place the files you created inside the
 Finaly add all the files to git, commit with a message and push them.
 
 ```
-git add html-css-exercise.html
+git add .
 git commit -m "note of what you changed in the files"
 git push origin master
 ```
