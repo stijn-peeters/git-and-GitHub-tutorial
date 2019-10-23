@@ -379,5 +379,3 @@ While some other people know the solution, you will learn what your mistake was 
 #### Step 3: In case of no Google results
 
 Ask someone who knows the solution (eg the coaches)
-
-ADJUSTMENTS CAN BE ADDED
